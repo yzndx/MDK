@@ -1,0 +1,738 @@
+Dependencies for Project 'lpt_cnt', Target 'lpt_cnt_Release': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup_hc32l07x.s)(0x62D27DD2)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"-o .\output\release\startup_hc32l07x.o --depend .\output\release\startup_hc32l07x.d)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.c)(0x61F0DA00)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\system_hc32l07x.o --omf_browse .\output\release\system_hc32l07x.crf --depend .\output\release\system_hc32l07x.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.c)(0x6519F0AC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\interrupts_hc32l07x.o --omf_browse .\output\release\interrupts_hc32l07x.crf --depend .\output\release\interrupts_hc32l07x.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\source\main.c)(0x67356848)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\main.o --omf_browse .\output\release\main.crf --depend .\output\release\main.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lptim.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpm.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\adt.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\uart.h)(0x62D24E20)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpuart.h)(0x62D270B6)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\flash.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\rtc.h)(0x65E736E4)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\adc.h)(0x65EC0246)
+I (..\source\ds18b20.h)(0x6639AA58)
+I (..\source\data_process.h)(0x67307631)
+I (..\source\hc32_it.h)(0x66598A3C)
+I (..\source\hc32_usart.h)(0x67349B5A)
+I (..\source\w25q128.h)(0x6638FF8A)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\source\app_led.h)(0x6710F4B8)
+I (..\source\app_CSK4002.h)(0x67239A5B)
+I (..\source\app_IDM40.h)(0x6703ED82)
+I (..\source\app_drive.h)(0x67343637)
+I (D:\MCU Keil\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\source\app_XL2409.h)(0x671C8CB3)
+F (..\source\data_process.c)(0x673448D4)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\data_process.o --omf_browse .\output\release\data_process.crf --depend .\output\release\data_process.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lptim.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\source\hc32_usart.h)(0x67349B5A)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpuart.h)(0x62D270B6)
+I (..\source\hc32_it.h)(0x66598A3C)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\uart.h)(0x62D24E20)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\adt.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpm.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\flash.h)(0x61F0D9FA)
+I (..\source\data_process.h)(0x67307631)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\rtc.h)(0x65E736E4)
+I (..\source\app_IDM40.h)(0x6703ED82)
+I (..\source\app_XL2409.h)(0x671C8CB3)
+I (D:\MCU Keil\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\source\app_CSK4002.h)(0x67239A5B)
+I (..\source\app_drive.h)(0x67343637)
+I (D:\MCU Keil\ARM\ARMCC\include\math.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (..\source\hc32_it.c)(0x67222C1C)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\hc32_it.o --omf_browse .\output\release\hc32_it.crf --depend .\output\release\hc32_it.d)
+I (..\source\hc32_it.h)(0x66598A3C)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lptim.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\source\hc32_usart.h)(0x67349B5A)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\uart.h)(0x62D24E20)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpuart.h)(0x62D270B6)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\adt.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\adc.h)(0x65EC0246)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\bgr.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpm.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\rtc.h)(0x65E736E4)
+I (..\source\data_process.h)(0x67307631)
+F (..\source\hc32_usart.c)(0x67356700)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\hc32_usart.o --omf_browse .\output\release\hc32_usart.crf --depend .\output\release\hc32_usart.d)
+I (..\source\hc32_usart.h)(0x67349B5A)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\source\data_process.h)(0x67307631)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\rtc.h)(0x65E736E4)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lptim.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\uart.h)(0x62D24E20)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpuart.h)(0x62D270B6)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\adt.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpm.h)(0x61F0D9FA)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\source\app_CSK4002.h)(0x67239A5B)
+I (..\source\app_drive.h)(0x67343637)
+I (D:\MCU Keil\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\source\app_IDM40.h)(0x6703ED82)
+I (..\source\app_XL2409.h)(0x671C8CB3)
+F (..\source\ds18b20.c)(0x664072E0)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\ds18b20.o --omf_browse .\output\release\ds18b20.crf --depend .\output\release\ds18b20.d)
+I (..\source\ds18b20.h)(0x6639AA58)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\adt.h)(0x61F0D9FA)
+F (..\source\w25q128.c)(0x6640737E)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\w25q128.o --omf_browse .\output\release\w25q128.crf --depend .\output\release\w25q128.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\spi.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\reset.h)(0x61F0D9FA)
+I (..\source\w25q128.h)(0x6638FF8A)
+F (..\source\app_CSK4002.c)(0x67262494)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\app_csk4002.o --omf_browse .\output\release\app_csk4002.crf --depend .\output\release\app_csk4002.d)
+I (..\source\app_CSK4002.h)(0x67239A5B)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\source\hc32_usart.h)(0x67349B5A)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\uart.h)(0x62D24E20)
+F (..\source\app_IDM40.c)(0x6704ED2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\app_idm40.o --omf_browse .\output\release\app_idm40.crf --depend .\output\release\app_idm40.d)
+I (..\source\app_IDM40.h)(0x6703ED82)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\uart.h)(0x62D24E20)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\source\app_XL2409.c)(0x671C8CB3)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\app_xl2409.o --omf_browse .\output\release\app_xl2409.crf --depend .\output\release\app_xl2409.d)
+I (..\source\app_XL2409.h)(0x671C8CB3)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+F (..\source\app_drive.c)(0x6734338D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\app_drive.o --omf_browse .\output\release\app_drive.crf --depend .\output\release\app_drive.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\math.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\uart.h)(0x62D24E20)
+I (..\source\app_drive.h)(0x67343637)
+I (D:\MCU Keil\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (..\source\app_IDM40.h)(0x6703ED82)
+I (..\source\app_XL2409.h)(0x671C8CB3)
+I (..\source\data_process.h)(0x67307631)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\rtc.h)(0x65E736E4)
+I (..\source\hc32_usart.h)(0x67349B5A)
+F (..\source\app_led.c)(0x67127D52)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\app_led.o --omf_browse .\output\release\app_led.crf --depend .\output\release\app_led.d)
+I (..\source\app_led.h)(0x6710F4B8)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+F (..\GB_Protocal\GB_WData.c)(0x66532843)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\gb_wdata.o --omf_browse .\output\release\gb_wdata.crf --depend .\output\release\gb_wdata.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\GB_Protocal\GB_WDataConfig.h)(0x66408D24)
+I (..\GB_Protocal\GB_WDataTranProtocal.h)(0x6651834C)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WDataFunc.h)(0x5ECE1DDE)
+I (..\GB_Protocal\GB_WDataTPS.h)(0x5EEA3774)
+I (..\GB_Protocal\port.h)(0x585CFC14)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\GB_Protocal\GB_WDataCRC.h)(0x5E3BF6BA)
+F (..\GB_Protocal\GB_WDataCRC.c)(0x6651837B)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\gb_wdatacrc.o --omf_browse .\output\release\gb_wdatacrc.crf --depend .\output\release\gb_wdatacrc.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\GB_Protocal\GB_WDataConfig.h)(0x66408D24)
+I (..\GB_Protocal\GB_WDataTranProtocal.h)(0x6651834C)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WDataFunc.h)(0x5ECE1DDE)
+I (..\GB_Protocal\GB_WDataTPS.h)(0x5EEA3774)
+I (..\GB_Protocal\port.h)(0x585CFC14)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\GB_Protocal\GB_WDataCRC.h)(0x5E3BF6BA)
+F (..\GB_Protocal\GB_WDataFunc.c)(0x67307684)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\gb_wdatafunc.o --omf_browse .\output\release\gb_wdatafunc.crf --depend .\output\release\gb_wdatafunc.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\GB_Protocal\GB_WDataConfig.h)(0x66408D24)
+I (..\GB_Protocal\GB_WDataTranProtocal.h)(0x6651834C)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WDataFunc.h)(0x5ECE1DDE)
+I (..\GB_Protocal\GB_WDataTPS.h)(0x5EEA3774)
+I (..\GB_Protocal\port.h)(0x585CFC14)
+I (D:\MCU Keil\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (..\GB_Protocal\GB_WDataCRC.h)(0x5E3BF6BA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpuart.h)(0x62D270B6)
+I (..\source\hc32_usart.h)(0x67349B5A)
+I (..\source\data_process.h)(0x67307631)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\rtc.h)(0x65E736E4)
+F (..\GB_Protocal\GB_WDataPortEvent.c)(0x6651845E)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\gb_wdataportevent.o --omf_browse .\output\release\gb_wdataportevent.crf --depend .\output\release\gb_wdataportevent.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\GB_Protocal\GB_WDataConfig.h)(0x66408D24)
+I (..\GB_Protocal\GB_WDataTranProtocal.h)(0x6651834C)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WDataFunc.h)(0x5ECE1DDE)
+I (..\GB_Protocal\GB_WDataTPS.h)(0x5EEA3774)
+I (..\GB_Protocal\port.h)(0x585CFC14)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\GB_Protocal\GB_WDataPortSerial.c)(0x66518467)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\gb_wdataportserial.o --omf_browse .\output\release\gb_wdataportserial.crf --depend .\output\release\gb_wdataportserial.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\GB_Protocal\GB_WDataConfig.h)(0x66408D24)
+I (..\GB_Protocal\GB_WDataTranProtocal.h)(0x6651834C)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WDataFunc.h)(0x5ECE1DDE)
+I (..\GB_Protocal\GB_WDataTPS.h)(0x5EEA3774)
+I (..\GB_Protocal\port.h)(0x585CFC14)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\GB_Protocal\GB_WDataPortTimer.c)(0x6651846D)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\gb_wdataporttimer.o --omf_browse .\output\release\gb_wdataporttimer.crf --depend .\output\release\gb_wdataporttimer.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\GB_Protocal\GB_WDataConfig.h)(0x66408D24)
+I (..\GB_Protocal\GB_WDataTranProtocal.h)(0x6651834C)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WDataFunc.h)(0x5ECE1DDE)
+I (..\GB_Protocal\GB_WDataTPS.h)(0x5EEA3774)
+I (..\GB_Protocal\port.h)(0x585CFC14)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\GB_Protocal\GB_WDataTPS.c)(0x6653181F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\gb_wdatatps.o --omf_browse .\output\release\gb_wdatatps.crf --depend .\output\release\gb_wdatatps.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\GB_Protocal\GB_WDataConfig.h)(0x66408D24)
+I (..\GB_Protocal\GB_WDataTranProtocal.h)(0x6651834C)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WDataFunc.h)(0x5ECE1DDE)
+I (..\GB_Protocal\GB_WDataTPS.h)(0x5EEA3774)
+I (..\GB_Protocal\port.h)(0x585CFC14)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (..\GB_Protocal\GB_WDataCRC.h)(0x5E3BF6BA)
+I (..\source\hc32_usart.h)(0x67349B5A)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+I (..\source\data_process.h)(0x67307631)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\rtc.h)(0x65E736E4)
+F (..\GB_Protocal\GB_WDataUtils.c)(0x6651847C)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\gb_wdatautils.o --omf_browse .\output\release\gb_wdatautils.crf --depend .\output\release\gb_wdatautils.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\GB_Protocal\GB_WDataConfig.h)(0x66408D24)
+I (..\GB_Protocal\GB_WDataTranProtocal.h)(0x6651834C)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WDataFunc.h)(0x5ECE1DDE)
+I (..\GB_Protocal\GB_WDataTPS.h)(0x5EEA3774)
+I (..\GB_Protocal\port.h)(0x585CFC14)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\GB_Protocal\port.c)(0x66518486)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\port.o --omf_browse .\output\release\port.crf --depend .\output\release\port.d)
+I (D:\MCU Keil\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (..\GB_Protocal\GB_WData.h)(0x66518361)
+I (..\GB_Protocal\GB_WDataConfig.h)(0x66408D24)
+I (..\GB_Protocal\GB_WDataTranProtocal.h)(0x6651834C)
+I (..\GB_Protocal\GB_WDataPort.h)(0x66408390)
+I (..\GB_Protocal\GB_WDataFunc.h)(0x5ECE1DDE)
+I (..\GB_Protocal\GB_WDataTPS.h)(0x5EEA3774)
+I (..\GB_Protocal\port.h)(0x585CFC14)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (D:\MCU Keil\ARM\ARMCC\include\inttypes.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\adt.c)(0x61F0D9FA)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\adt.o --omf_browse .\output\release\adt.crf --depend .\output\release\adt.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\adt.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\ddl.c)(0x663B63FC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\ddl.o --omf_browse .\output\release\ddl.crf --depend .\output\release\ddl.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\flash.c)(0x61F0D9FC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\flash.o --omf_browse .\output\release\flash.crf --depend .\output\release\flash.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\flash.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\gpio.c)(0x62D25CD0)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\gpio.o --omf_browse .\output\release\gpio.crf --depend .\output\release\gpio.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\gpio.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\lpm.c)(0x61F0D9FC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\lpm.o --omf_browse .\output\release\lpm.crf --depend .\output\release\lpm.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpm.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\lptim.c)(0x61F0D9FC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\lptim.o --omf_browse .\output\release\lptim.crf --depend .\output\release\lptim.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lptim.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\sysctrl.c)(0x61F0D9FC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\sysctrl.o --omf_browse .\output\release\sysctrl.crf --depend .\output\release\sysctrl.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\uart.c)(0x62D24E12)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\uart.o --omf_browse .\output\release\uart.crf --depend .\output\release\uart.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\uart.h)(0x62D24E20)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\rtc.c)(0x61F0D9FC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\rtc.o --omf_browse .\output\release\rtc.crf --depend .\output\release\rtc.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\rtc.h)(0x65E736E4)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\adc.c)(0x61F0D9FA)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\adc.o --omf_browse .\output\release\adc.crf --depend .\output\release\adc.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\adc.h)(0x65EC0246)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\bgr.c)(0x61F0D9FA)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\bgr.o --omf_browse .\output\release\bgr.crf --depend .\output\release\bgr.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\bgr.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\spi.c)(0x61F0D9FC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\spi.o --omf_browse .\output\release\spi.crf --depend .\output\release\spi.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\spi.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\lpuart.c)(0x62D27096)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\lpuart.o --omf_browse .\output\release\lpuart.crf --depend .\output\release\lpuart.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\lpuart.h)(0x62D270B6)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\src\reset.c)(0x61F0D9FC)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common -I ..\source -I ..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc -I ..\HC32\HC32L07x_DDL_Rev1.2.0\midware\inc -I ..\GB_Protocal -I .\.cmsis\include --locale=english-I.\RTE\_lpt_cnt_Release-I"D:\MCU Keil\ARM\CMSIS\5.8.0\CMSIS\Core\Include"-I"D:\MCU Keil\HDSC\HC32L07X\1.1.0\Device\Include"-D__UVISION_VERSION="536" -D_RTE_ -D_RTE_-o .\output\release\reset.o --omf_browse .\output\release\reset.crf --depend .\output\release\reset.d)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\reset.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\ddl.h)(0x663B6418)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\base_types.h)(0x61F0DA00)
+I (D:\MCU Keil\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\MCU Keil\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\MCU Keil\ARM\ARMCC\include\assert.h)(0x60252378)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\board_evbhc32lf07x.h)(0x6658D324)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\hc32l07x.h)(0x65EC1344)
+I (.\.cmsis\include\core_cm0plus.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_version.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_compiler.h)(0x626FBB5D)
+I (.\.cmsis\include\cmsis_armcc.h)(0x626FBB5D)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\system_hc32l07x.h)(0x61F0DA00)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\driver\inc\sysctrl.h)(0x61F0D9FA)
+I (..\HC32\HC32L07x_DDL_Rev1.2.0\mcu\common\interrupts_hc32l07x.h)(0x61F0DA00)
+I (..\source\ddl_device.h)(0x62D27DD2)
+F (..\readme.txt)(0x6731AEE9)()

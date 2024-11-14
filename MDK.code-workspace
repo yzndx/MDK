@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "sysctrl.h": "c",
+            "data_process.h": "c"
+        }
+    },
+    "extensions": {}
+}
